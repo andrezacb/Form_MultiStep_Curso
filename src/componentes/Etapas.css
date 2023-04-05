@@ -1,0 +1,63 @@
+.steps {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+  }
+  
+  .steps::after {
+    content: "";
+    width: 450px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+  }
+  
+  .step {
+    text-align: center;
+    background: #161616;
+    z-index: 1;
+    padding: 0.5rem;
+    max-width: 120px; /* adiciona a largura máxima */
+  }
+  
+  .active svg {
+    fill: rgb(133, 3, 255);
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  /* adiciona as novas regras para telas menores que 500px */
+  @media screen and (max-width: 560px) {
+    .steps {
+      flex-direction: row;
+      align-items: center;
+      max-width: 100%;
+      gap: 1rem;
+      font-size: 0.7rem;
+    }
+  
+    .step {
+      max-width: none;
+      margin-top: 0;
+      padding: 1rem;
+      text-align: center;
+      background: none;
+    }
+  
+    .steps::after {
+      display: none;
+    }
+  
+    /* esconde todas as etapas que não estiverem ativas */
+    .step:not(.active) {
+      display: none;
+    }
+  }
+  

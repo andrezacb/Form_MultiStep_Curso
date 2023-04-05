@@ -1,0 +1,33 @@
+.final-page{
+    max-width: 600px;
+    min-height: 130px;
+    background: #161616;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 2.6rem;
+    box-shadow:0px 7px 29px 0px rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+}
+
+.final-page svg{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: darkorchid;
+    margin-right: 2%;
+}
+
+.final-page h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+

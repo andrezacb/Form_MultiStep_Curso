@@ -1,0 +1,170 @@
+
+
+.header{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.header h1{
+    font-size: 1.5rem;
+}
+.subtitulo{
+  font-size: 0.9rem;
+  font-style: italic;
+
+}
+.container{
+   max-width: 800px;
+   max-height: 638px;
+   background:rgb(22, 22, 22);
+    margin: 0 auto;
+    padding: 1.2rem;
+    box-shadow:0px 7px 29px 0px rgba(0, 0, 0, 0.658);
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.container form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.input-container{
+    min-height: 390px;
+    margin: 0 auto;
+   
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .Logo {
+   width: 25vw;
+  }
+  @media (max-width: 600px) {
+    .Logo {
+      display: none;
+    }
+    
+    .form-container {
+      max-width: 100%;
+      margin: 5% 2%;
+    }
+    
+    .container {
+      padding: 0 20px;
+      margin: 5% 2%;
+      margin-top: 0;
+    }
+    
+    .container form input {
+      font-size: 0.9rem;
+    }
+  }
+  @media (max-width: 800px) {
+    
+    .form-container {
+      max-width: 100%;
+      margin: 5% 2%;
+    }
+    
+    .container {
+      padding: 0px 20px;
+      margin: 5% 2%;
+      padding-bottom: 10px;
+      margin-top: 0;
+   
+    }
+    
+    .container form input {
+      font-size: 0.9rem;
+    }
+  }
+
+  .input-containe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 500px;
+    margin-top: 3%;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(45deg, rgb(90, 4, 250),rgb(64, 0, 182),rgb(132, 0, 255),rgb(84, 0, 153),rgb(183, 2, 255));
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2%;
+  }
+  .content-input label {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+  }
+  
+  .content-input input {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: white;
+    outline: 0;
+    box-shadow: -3px 4px 5px #0000005b;
+    background: #8f52d4;
+
+  }
+
+  .regiao{
+    width: 100%;
+  }
+  .estados{
+    width: 100%;
+    padding: 0.3rem;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+  }
+  
+  .content-input input:focus{
+    border: 2px solid darkorchid;
+    background: rgba(165, 0, 253, 0.233);
+  }
+  ::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(201, 201, 202);
+  }
+  .actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, rgb(127, 58, 255),rgb(126, 12, 202),rgb(162, 0, 255));
+    transition: 2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);
+    color: rgb(253, 253, 253);
+  }
+
+  button:hover{
+    font-size: 1rem;
+    background: darkviolet;
+  }

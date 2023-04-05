@@ -1,0 +1,102 @@
+.header_curso{
+    font-size: 0.8rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 1%;
+    color: #fffdfd;
+}
+.header_curso span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fffdfd;
+}
+.container-curso{
+    margin: 0 auto;
+}
+.aplicaçao{
+    width: 100px;
+    display: flex;
+}
+
+.radio-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.radio{
+    width: 150px;
+    height: 160px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background-image: linear-gradient(45deg, rgb(90, 4, 250),rgb(64, 0, 182),rgb(132, 0, 255),rgb(84, 0, 153),rgb(183, 2, 255));
+    
+}
+
+.radio img{
+    margin: auto;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.radio input{
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.Pacote{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 0.9rem;
+}
+.Tecnologia{
+    width: 7vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.SecaoPacote{
+    width: 180px;
+    height: 210px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    font-size: 0.6rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(90, 4, 250),rgb(64, 0, 182),rgb(132, 0, 255),rgb(84, 0, 153),rgb(183, 2, 255));
+}
+.SecaoPacote h1{
+    margin-bottom: 2%;
+}
+.SecaoPacote p{
+    margin-bottom: 2%;
+    font-size: 0.6rem;
+}
+
+.footer{
+    display: flex;
+   margin-left: 9%;
+}
+
+@media screen and (max-width: 610px) {
+    .SecaoPacote{
+        margin-right: 2%;
+        font-size: 0.9rem;
+    }
+    .Tecnologia{
+        display: none;
+    }
+}
+
